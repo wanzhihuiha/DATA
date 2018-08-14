@@ -1,0 +1,256 @@
+13:38:43.037 logback-mybatis [main] INFO  com.example.DemoApplication - Starting DemoApplication on Stu1001 with PID 3784 (started by Administrator in E:\项目\demo)
+13:38:43.042 logback-mybatis [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+13:38:43.134 logback-mybatis [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@16d04d3d: startup date [Mon Aug 13 13:38:43 CST 2018]; root of context hierarchy
+13:38:45.136 logback-mybatis [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4f9bc07e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:38:45.798 logback-mybatis [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:38:45.814 logback-mybatis [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:38:45.829 logback-mybatis [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:38:45.829 logback-mybatis [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+13:38:45.861 logback-mybatis [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;F:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\D:\tomcat\apache-tomcat-7.0.52\lib;D:\tomcat\apache-tomcat-7.0.52\lib\servlet-api.jar;D:\tomcat\apache-tomcat-7.0.52\lib\jsp-api.jar;E:\spring\STS\sts-bundle\sts-3.6.3.SR1;;.]
+13:38:46.019 logback-mybatis [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:38:46.019 logback-mybatis [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2885 ms
+13:38:47.289 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:38:47.302 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+13:38:47.302 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:38:47.303 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+13:38:47.303 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+13:38:47.304 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+13:38:47.305 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+13:38:47.818 logback-mybatis [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:38:48.021 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@16d04d3d: startup date [Mon Aug 13 13:38:43 CST 2018]; root of context hierarchy
+13:38:48.133 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/author/{id}],methods=[GET]}" onto public com.example.model.Author com.example.controller.AuthorController.getoneAuthor(int)
+13:38:48.138 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+13:38:48.139 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+13:38:48.192 logback-mybatis [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:38:48.192 logback-mybatis [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:38:48.786 logback-mybatis [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+13:38:48.801 logback-mybatis [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+13:38:48.802 logback-mybatis [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+13:38:48.804 logback-mybatis [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+13:38:48.862 logback-mybatis [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+13:38:48.865 logback-mybatis [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+13:38:48.874 logback-mybatis [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+13:38:48.898 logback-mybatis [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:38:48.911 logback-mybatis [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+13:38:48.942 logback-mybatis [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:38:48.942 logback-mybatis [main] INFO  com.example.DemoApplication - Started DemoApplication in 7.043 seconds (JVM running for 7.782)
+13:39:17.157 logback-mybatis [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+13:39:17.158 logback-mybatis [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+13:39:17.186 logback-mybatis [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+13:39:17.329 logback-mybatis [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:39:17.613 logback-mybatis [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:39:17.621 logback-mybatis [http-nio-8080-exec-2] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==>  Preparing: select id, name, phone from author where id=? 
+13:39:17.646 logback-mybatis [http-nio-8080-exec-2] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==> Parameters: 1(Integer)
+13:39:17.668 logback-mybatis [http-nio-8080-exec-2] DEBUG c.e.m.AuthorMapper.findOneAuthor - <==      Total: 1
+13:39:29.759 logback-mybatis [http-nio-8080-exec-8] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==>  Preparing: select id, name, phone from author where id=? 
+13:39:29.760 logback-mybatis [http-nio-8080-exec-8] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==> Parameters: 1(Integer)
+13:39:29.771 logback-mybatis [http-nio-8080-exec-8] DEBUG c.e.m.AuthorMapper.findOneAuthor - <==      Total: 1
+13:39:31.675 logback-mybatis [http-nio-8080-exec-9] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==>  Preparing: select id, name, phone from author where id=? 
+13:39:31.676 logback-mybatis [http-nio-8080-exec-9] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==> Parameters: 1(Integer)
+13:39:31.678 logback-mybatis [http-nio-8080-exec-9] DEBUG c.e.m.AuthorMapper.findOneAuthor - <==      Total: 1
+13:39:35.387 logback-mybatis [http-nio-8080-exec-1] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==>  Preparing: select id, name, phone from author where id=? 
+13:39:35.391 logback-mybatis [http-nio-8080-exec-1] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==> Parameters: 1(Integer)
+13:39:35.393 logback-mybatis [http-nio-8080-exec-1] DEBUG c.e.m.AuthorMapper.findOneAuthor - <==      Total: 1
+13:39:39.040 logback-mybatis [http-nio-8080-exec-2] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==>  Preparing: select id, name, phone from author where id=? 
+13:39:39.041 logback-mybatis [http-nio-8080-exec-2] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==> Parameters: 1(Integer)
+13:39:39.043 logback-mybatis [http-nio-8080-exec-2] DEBUG c.e.m.AuthorMapper.findOneAuthor - <==      Total: 1
+13:39:39.236 logback-mybatis [http-nio-8080-exec-6] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==>  Preparing: select id, name, phone from author where id=? 
+13:39:39.237 logback-mybatis [http-nio-8080-exec-6] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==> Parameters: 1(Integer)
+13:39:39.239 logback-mybatis [http-nio-8080-exec-6] DEBUG c.e.m.AuthorMapper.findOneAuthor - <==      Total: 1
+13:39:39.404 logback-mybatis [http-nio-8080-exec-10] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==>  Preparing: select id, name, phone from author where id=? 
+13:39:39.405 logback-mybatis [http-nio-8080-exec-10] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==> Parameters: 1(Integer)
+13:39:39.417 logback-mybatis [http-nio-8080-exec-10] DEBUG c.e.m.AuthorMapper.findOneAuthor - <==      Total: 1
+13:39:39.589 logback-mybatis [http-nio-8080-exec-7] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==>  Preparing: select id, name, phone from author where id=? 
+13:39:39.590 logback-mybatis [http-nio-8080-exec-7] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==> Parameters: 1(Integer)
+13:39:39.592 logback-mybatis [http-nio-8080-exec-7] DEBUG c.e.m.AuthorMapper.findOneAuthor - <==      Total: 1
+13:39:39.778 logback-mybatis [http-nio-8080-exec-5] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==>  Preparing: select id, name, phone from author where id=? 
+13:39:39.779 logback-mybatis [http-nio-8080-exec-5] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==> Parameters: 1(Integer)
+13:39:39.782 logback-mybatis [http-nio-8080-exec-5] DEBUG c.e.m.AuthorMapper.findOneAuthor - <==      Total: 1
+13:39:39.954 logback-mybatis [http-nio-8080-exec-1] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==>  Preparing: select id, name, phone from author where id=? 
+13:39:39.955 logback-mybatis [http-nio-8080-exec-1] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==> Parameters: 1(Integer)
+13:39:39.956 logback-mybatis [http-nio-8080-exec-1] DEBUG c.e.m.AuthorMapper.findOneAuthor - <==      Total: 1
+13:39:40.124 logback-mybatis [http-nio-8080-exec-4] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==>  Preparing: select id, name, phone from author where id=? 
+13:39:40.124 logback-mybatis [http-nio-8080-exec-4] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==> Parameters: 1(Integer)
+13:39:40.125 logback-mybatis [http-nio-8080-exec-4] DEBUG c.e.m.AuthorMapper.findOneAuthor - <==      Total: 1
+13:39:49.248 logback-mybatis [http-nio-8080-exec-9] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==>  Preparing: select id, name, phone from author where id=? 
+13:39:49.248 logback-mybatis [http-nio-8080-exec-9] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==> Parameters: 1(Integer)
+13:39:49.267 logback-mybatis [http-nio-8080-exec-9] DEBUG c.e.m.AuthorMapper.findOneAuthor - <==      Total: 1
+13:39:54.059 logback-mybatis [http-nio-8080-exec-7] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==>  Preparing: select id, name, phone from author where id=? 
+13:39:54.062 logback-mybatis [http-nio-8080-exec-7] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==> Parameters: 1(Integer)
+13:39:54.065 logback-mybatis [http-nio-8080-exec-7] DEBUG c.e.m.AuthorMapper.findOneAuthor - <==      Total: 1
+13:42:06.044 logback-mybatis [http-nio-8080-exec-1] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==>  Preparing: select id, name, phone from author where id=? 
+13:42:06.045 logback-mybatis [http-nio-8080-exec-1] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==> Parameters: 1(Integer)
+13:42:06.052 logback-mybatis [http-nio-8080-exec-1] DEBUG c.e.m.AuthorMapper.findOneAuthor - <==      Total: 1
+13:42:07.231 logback-mybatis [http-nio-8080-exec-4] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==>  Preparing: select id, name, phone from author where id=? 
+13:42:07.232 logback-mybatis [http-nio-8080-exec-4] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==> Parameters: 1(Integer)
+13:42:07.233 logback-mybatis [http-nio-8080-exec-4] DEBUG c.e.m.AuthorMapper.findOneAuthor - <==      Total: 1
+13:42:08.241 logback-mybatis [http-nio-8080-exec-8] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==>  Preparing: select id, name, phone from author where id=? 
+13:42:08.244 logback-mybatis [http-nio-8080-exec-8] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==> Parameters: 1(Integer)
+13:42:08.254 logback-mybatis [http-nio-8080-exec-8] DEBUG c.e.m.AuthorMapper.findOneAuthor - <==      Total: 1
+13:42:08.570 logback-mybatis [http-nio-8080-exec-9] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==>  Preparing: select id, name, phone from author where id=? 
+13:42:08.571 logback-mybatis [http-nio-8080-exec-9] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==> Parameters: 1(Integer)
+13:42:08.575 logback-mybatis [http-nio-8080-exec-9] DEBUG c.e.m.AuthorMapper.findOneAuthor - <==      Total: 1
+13:42:08.811 logback-mybatis [http-nio-8080-exec-3] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==>  Preparing: select id, name, phone from author where id=? 
+13:42:08.812 logback-mybatis [http-nio-8080-exec-3] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==> Parameters: 1(Integer)
+13:42:08.814 logback-mybatis [http-nio-8080-exec-3] DEBUG c.e.m.AuthorMapper.findOneAuthor - <==      Total: 1
+13:42:09.030 logback-mybatis [http-nio-8080-exec-1] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==>  Preparing: select id, name, phone from author where id=? 
+13:42:09.030 logback-mybatis [http-nio-8080-exec-1] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==> Parameters: 1(Integer)
+13:42:09.039 logback-mybatis [http-nio-8080-exec-1] DEBUG c.e.m.AuthorMapper.findOneAuthor - <==      Total: 1
+13:42:09.209 logback-mybatis [http-nio-8080-exec-4] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==>  Preparing: select id, name, phone from author where id=? 
+13:42:09.209 logback-mybatis [http-nio-8080-exec-4] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==> Parameters: 1(Integer)
+13:42:09.211 logback-mybatis [http-nio-8080-exec-4] DEBUG c.e.m.AuthorMapper.findOneAuthor - <==      Total: 1
+13:42:09.398 logback-mybatis [http-nio-8080-exec-8] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==>  Preparing: select id, name, phone from author where id=? 
+13:42:09.399 logback-mybatis [http-nio-8080-exec-8] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==> Parameters: 1(Integer)
+13:42:09.400 logback-mybatis [http-nio-8080-exec-8] DEBUG c.e.m.AuthorMapper.findOneAuthor - <==      Total: 1
+13:42:40.565 logback-mybatis [main] INFO  com.example.DemoApplication - Starting DemoApplication on Stu1001 with PID 3040 (started by Administrator in E:\项目\demo)
+13:42:40.570 logback-mybatis [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+13:42:40.782 logback-mybatis [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@10e31a9a: startup date [Mon Aug 13 13:42:40 CST 2018]; root of context hierarchy
+13:42:42.877 logback-mybatis [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$38fd565a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:42:43.800 logback-mybatis [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:42:43.843 logback-mybatis [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:42:43.881 logback-mybatis [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:42:43.881 logback-mybatis [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+13:42:43.900 logback-mybatis [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;F:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\D:\tomcat\apache-tomcat-7.0.52\lib;D:\tomcat\apache-tomcat-7.0.52\lib\servlet-api.jar;D:\tomcat\apache-tomcat-7.0.52\lib\jsp-api.jar;E:\spring\STS\sts-bundle\sts-3.6.3.SR1;;.]
+13:42:44.163 logback-mybatis [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:42:44.165 logback-mybatis [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3384 ms
+13:42:45.440 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:42:45.441 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+13:42:45.441 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:42:45.441 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+13:42:45.441 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+13:42:45.443 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+13:42:45.444 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+13:42:45.971 logback-mybatis [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:42:46.185 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@10e31a9a: startup date [Mon Aug 13 13:42:40 CST 2018]; root of context hierarchy
+13:42:46.290 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/author/{id}],methods=[GET]}" onto public com.example.model.Author com.example.controller.AuthorController.getoneAuthor(int)
+13:42:46.295 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+13:42:46.296 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+13:42:46.338 logback-mybatis [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:42:46.338 logback-mybatis [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:42:46.870 logback-mybatis [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+13:42:46.885 logback-mybatis [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+13:42:46.888 logback-mybatis [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+13:42:46.889 logback-mybatis [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+13:42:46.969 logback-mybatis [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+13:42:47.086 logback-mybatis [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+13:42:47.092 logback-mybatis [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+13:42:47.108 logback-mybatis [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:42:47.120 logback-mybatis [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+13:42:47.238 logback-mybatis [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:42:47.244 logback-mybatis [main] INFO  com.example.DemoApplication - Started DemoApplication in 7.488 seconds (JVM running for 8.26)
+13:42:53.162 logback-mybatis [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+13:42:53.165 logback-mybatis [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+13:42:53.195 logback-mybatis [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+13:42:53.301 logback-mybatis [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:42:53.629 logback-mybatis [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:42:53.642 logback-mybatis [http-nio-8080-exec-1] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==>  Preparing: select id, name, phone from author where id=? 
+13:42:53.666 logback-mybatis [http-nio-8080-exec-1] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==> Parameters: 2(Integer)
+13:42:53.681 logback-mybatis [http-nio-8080-exec-1] DEBUG c.e.m.AuthorMapper.findOneAuthor - <==      Total: 1
+14:24:22.108 logback-mybatis [main] INFO  com.example.DemoApplication - Starting DemoApplication on Stu1001 with PID 6028 (started by Administrator in E:\项目\demo)
+14:24:22.123 logback-mybatis [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+14:24:22.279 logback-mybatis [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@223d2c72: startup date [Mon Aug 13 14:24:22 CST 2018]; root of context hierarchy
+14:24:24.248 logback-mybatis [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f7350fad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:24:24.930 logback-mybatis [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:24:24.962 logback-mybatis [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:24:24.977 logback-mybatis [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:24:24.977 logback-mybatis [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+14:24:24.993 logback-mybatis [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;F:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\D:\tomcat\apache-tomcat-7.0.52\lib;D:\tomcat\apache-tomcat-7.0.52\lib\servlet-api.jar;D:\tomcat\apache-tomcat-7.0.52\lib\jsp-api.jar;E:\spring\STS\sts-bundle\sts-3.6.3.SR1;;.]
+14:24:25.180 logback-mybatis [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:24:25.180 logback-mybatis [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2901 ms
+14:24:26.431 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:24:26.431 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+14:24:26.431 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:24:26.431 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+14:24:26.431 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+14:24:26.431 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+14:24:26.431 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+14:24:27.002 logback-mybatis [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+14:24:27.205 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@223d2c72: startup date [Mon Aug 13 14:24:22 CST 2018]; root of context hierarchy
+14:24:27.298 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/authors/{id}],methods=[DELETE]}" onto public int com.example.controller.AuthorController.delAuthor(int)
+14:24:27.298 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/authors],methods=[GET]}" onto public java.util.List<com.example.model.Author> com.example.controller.AuthorController.getAllAuthors()
+14:24:27.298 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/author/{id}],methods=[GET]}" onto public com.example.model.Author com.example.controller.AuthorController.getoneAuthor(int)
+14:24:27.298 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/authors],methods=[POST]}" onto public int com.example.controller.AuthorController.addAuthor(com.example.model.Author)
+14:24:27.298 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+14:24:27.314 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+14:24:27.361 logback-mybatis [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+14:24:27.361 logback-mybatis [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+14:24:27.955 logback-mybatis [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+14:24:27.970 logback-mybatis [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+14:24:27.970 logback-mybatis [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+14:24:27.970 logback-mybatis [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+14:24:28.065 logback-mybatis [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+14:24:28.065 logback-mybatis [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+14:24:28.080 logback-mybatis [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+14:24:28.112 logback-mybatis [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:24:28.127 logback-mybatis [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+14:24:28.158 logback-mybatis [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+14:24:28.158 logback-mybatis [main] INFO  com.example.DemoApplication - Started DemoApplication in 7.035 seconds (JVM running for 7.937)
+14:24:41.738 logback-mybatis [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+14:24:41.739 logback-mybatis [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+14:24:41.768 logback-mybatis [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+14:24:41.871 logback-mybatis [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:24:42.246 logback-mybatis [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:24:42.255 logback-mybatis [http-nio-8080-exec-1] DEBUG c.e.m.AuthorMapper.findAllAuthors - ==>  Preparing: select id, name, phone from author 
+14:24:42.278 logback-mybatis [http-nio-8080-exec-1] DEBUG c.e.m.AuthorMapper.findAllAuthors - ==> Parameters: 
+14:24:42.293 logback-mybatis [http-nio-8080-exec-1] DEBUG c.e.m.AuthorMapper.findAllAuthors - <==      Total: 2
+15:28:45.683 logback-mybatis [http-nio-8080-exec-4] DEBUG c.e.m.AuthorMapper.findAllAuthors - ==>  Preparing: select id, name, phone from author 
+15:28:45.687 logback-mybatis [http-nio-8080-exec-4] DEBUG c.e.m.AuthorMapper.findAllAuthors - ==> Parameters: 
+15:28:45.703 logback-mybatis [http-nio-8080-exec-4] DEBUG c.e.m.AuthorMapper.findAllAuthors - <==      Total: 2
+15:30:14.356 logback-mybatis [http-nio-8080-exec-10] WARN  o.s.web.servlet.PageNotFound - Request method 'GET' not supported
+15:30:34.221 logback-mybatis [http-nio-8080-exec-9] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==>  Preparing: select id, name, phone from author where id=? 
+15:30:34.221 logback-mybatis [http-nio-8080-exec-9] DEBUG c.e.m.AuthorMapper.findOneAuthor - ==> Parameters: 1(Integer)
+15:30:34.237 logback-mybatis [http-nio-8080-exec-9] DEBUG c.e.m.AuthorMapper.findOneAuthor - <==      Total: 1
+15:36:54.950 logback-mybatis [main] INFO  com.example.DemoApplication - Starting DemoApplication on Stu1001 with PID 6424 (started by Administrator in E:\项目\demo)
+15:36:54.966 logback-mybatis [main] INFO  com.example.DemoApplication - No active profile set, falling back to default profiles: default
+15:36:55.106 logback-mybatis [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@564fabc8: startup date [Mon Aug 13 15:36:55 CST 2018]; root of context hierarchy
+15:36:57.150 logback-mybatis [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bce85e13] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:36:58.203 logback-mybatis [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+15:36:58.236 logback-mybatis [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:36:58.252 logback-mybatis [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:36:58.252 logback-mybatis [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.32
+15:36:58.267 logback-mybatis [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;F:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\D:\tomcat\apache-tomcat-7.0.52\lib;D:\tomcat\apache-tomcat-7.0.52\lib\servlet-api.jar;D:\tomcat\apache-tomcat-7.0.52\lib\jsp-api.jar;E:\spring\STS\sts-bundle\sts-3.6.3.SR1;;.]
+15:36:58.457 logback-mybatis [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:36:58.457 logback-mybatis [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3351 ms
+15:36:59.801 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+15:36:59.801 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+15:36:59.801 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+15:36:59.801 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+15:36:59.801 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+15:36:59.803 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+15:36:59.803 logback-mybatis [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+15:37:00.474 logback-mybatis [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+15:37:00.692 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@564fabc8: startup date [Mon Aug 13 15:36:55 CST 2018]; root of context hierarchy
+15:37:00.801 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/author/{id}],methods=[GET]}" onto public com.example.model.Author com.example.controller.AuthorController.getoneAuthor(int)
+15:37:00.801 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/authors],methods=[POST],consumes=[application/json]}" onto public int com.example.controller.AuthorController.addAuthor(com.example.model.Author)
+15:37:00.801 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/authors],methods=[GET]}" onto public java.util.List<com.example.model.Author> com.example.controller.AuthorController.getAllAuthors()
+15:37:00.801 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/authors/{id}],methods=[DELETE]}" onto public int com.example.controller.AuthorController.delAuthor(int)
+15:37:00.801 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+15:37:00.801 logback-mybatis [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+15:37:00.864 logback-mybatis [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+15:37:00.864 logback-mybatis [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+15:37:01.473 logback-mybatis [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+15:37:01.489 logback-mybatis [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+15:37:01.489 logback-mybatis [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+15:37:01.489 logback-mybatis [main] INFO  o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+15:37:01.535 logback-mybatis [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+15:37:01.535 logback-mybatis [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+15:37:01.551 logback-mybatis [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+15:37:01.582 logback-mybatis [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:37:01.629 logback-mybatis [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+15:37:01.660 logback-mybatis [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+15:37:01.660 logback-mybatis [main] INFO  com.example.DemoApplication - Started DemoApplication in 8.048 seconds (JVM running for 9.163)
+15:38:12.013 logback-mybatis [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+15:38:12.013 logback-mybatis [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+15:38:12.044 logback-mybatis [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+15:38:12.218 logback-mybatis [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public int com.example.controller.AuthorController.addAuthor(com.example.model.Author)
+15:45:52.797 logback-mybatis [http-nio-8080-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:45:53.085 logback-mybatis [http-nio-8080-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:45:53.092 logback-mybatis [http-nio-8080-exec-7] DEBUG c.e.mapper.AuthorMapper.insertAuthor - ==>  Preparing: insert into author(name, phone) values(?,?) 
+15:45:53.119 logback-mybatis [http-nio-8080-exec-7] DEBUG c.e.mapper.AuthorMapper.insertAuthor - ==> Parameters: BUKEN(String), 123456(Integer)
+15:45:53.304 logback-mybatis [http-nio-8080-exec-7] DEBUG c.e.mapper.AuthorMapper.insertAuthor - <==    Updates: 1
+15:46:56.288 logback-mybatis [http-nio-8080-exec-10] DEBUG c.e.mapper.AuthorMapper.deleteAuthor - ==>  Preparing: delete from author where id=? 
+15:46:56.288 logback-mybatis [http-nio-8080-exec-10] DEBUG c.e.mapper.AuthorMapper.deleteAuthor - ==> Parameters: 3(Integer)
+15:46:56.446 logback-mybatis [http-nio-8080-exec-10] DEBUG c.e.mapper.AuthorMapper.deleteAuthor - <==    Updates: 1
+15:47:46.553 logback-mybatis [http-nio-8080-exec-6] DEBUG c.e.mapper.AuthorMapper.insertAuthor - ==>  Preparing: insert into author(name, phone) values(?,?) 
+15:47:46.554 logback-mybatis [http-nio-8080-exec-6] DEBUG c.e.mapper.AuthorMapper.insertAuthor - ==> Parameters: 明强(String), 123456(Integer)
+15:47:46.604 logback-mybatis [http-nio-8080-exec-6] DEBUG c.e.mapper.AuthorMapper.insertAuthor - <==    Updates: 1
